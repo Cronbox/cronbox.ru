@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KRZSCX2');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta property="og:url" content="https:&#x2F;&#x2F;cronbox.ru">
+
+  
+  <meta name="description" content="Мониторинг сайтов, ссылок и серверных задач">
+  
+
+  
+  <meta property="og:title" content="Cronbox - мониторинг серверных задач">
+  
+
+  
+  <meta name="keywords" content="мониторинг сайтов, мониторинг ссылок, мониторинг задач, cron, мониторинг резервного копирования, мониторинг бэкапов">
+  
+
+  
+  <meta property="og:description" content="Мониторинг сайтов, ссылок и серверных задач" />
+  
+
+  
+  <meta property="og:url" content="/" />
+  
+
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+
+  <!-- SEO -->
+  
+  <title>Мониторинг сайтов, ссылок и задач - Cronbox</title>
+  
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!--  css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;cronbox.ru/style.css">
+
+  <!-- fonts -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+
+  <!-- icons  -->
+  <script src="https://kit.fontawesome.com/b82ba96aff.js" crossorigin="anonymous"></script>
+
+  
+
+<!-- Yandex.Webmaster Verification Code -->
+<meta name="yandex-verification" content="7e31b2e5536fb5d8" />
+
+
+
+  
+</head>
+
+<body class="container-fluid p-0">
+
+<div class="page-content p-0">
+
+  <div class="container p-0 d-lg-block">
+    <div class="row no-gutters justify-content-between">
+      <div class="col-12 p-3 p-lg-3 col-lg-1 mb-lg-0 pl-lg-3 pl-xl-0 vertical-align">
+        <h1 class="app-name">
+          <a href="/" class="app-name__link" title="Перейти на главную">CRONBOX</a>
+        </h1>
+      </div>
+
+      <!-- mobile -->
+      <div class="col-lg-12 pl-3 p-lg-4 d-none">
+        <div class="row no-gutters mb-2 vertical-align">
+          <div class="col-12 font-weight-bold">
+            <a href="/&#x2F;&#x2F;docs.cronbox.ru" target="_blank" class="top-menu__menu-item mr-3">ДОКУМЕНТАЦИЯ</a>
+            <a href="/plans" class="top-menu__menu-item mr-3">ТАРИФЫ</a>
+            <a href="/faq" class="top-menu__menu-item mr-3">FAQ</a>
+            <a href="&#x2F;&#x2F;blog.cronbox.ru" target="_blank" class="top-menu__menu-item mr-3">БЛОГ</a>
+
+            <i class="fas fa-sign-in-alt top-menu__sign-in font-weight-bold"
+               onclick="document.location.href='&#x2F;&#x2F;cp.cronbox.ru'" title="Войти"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- desktop -->
+      <div class="col-lg-8 d-none d-lg-block text-right" style="max-width: 964px">
+        <div class="row justify-content-end p-4">
+          <div class="col-11 font-weight-bold">
+            <a href="/" class="top-menu__menu-item mr-5">ГЛАВНАЯ</a>
+            <a href="/plans" class="top-menu__menu-item mr-5">ТАРИФЫ</a>
+            <a href="/faq" class="top-menu__menu-item mr-5">FAQ</a>
+            <a href="&#x2F;&#x2F;blog.cronbox.ru" target="_blank" class="top-menu__menu-item">БЛОГ</a>
+          </div>
+          <div class="col-1 text-right" style="max-height: 17px; padding-top: 1px">
+            <i class="fas fa-sign-in-alt top-menu__sign-in font-weight-bold"
+               onclick="document.location.href='&#x2F;&#x2F;cp.cronbox.ru'"
+               title="Войти"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<div id="main-page__slogan-block" class="p-3 p-lg-5 mb-3">
+    <div class="container p-0">
+        <div class="row justify-content-between">
+            <div class="col-12">
+                <div id="main-page__slogan"
+                     class="font-weight-bold mb-1">
+                    Мониторинг сайтов и задач, <br class="d-none d-lg-block">которые работают по расписанию
+                </div>
+                <div id="main-page__slogan-annotation" class="text-dark mb-3 mb-lg-4">
+                    Будьте в курсе, если ваш сайт или ссылка не открываются или открывается слишком долго,
+                    <br class="d-none d-lg-block">а
+                    серверные задачи не выполняются или работали дольше, чем было запланировано.
+                </div>
+
+                <button class="button button-primary shadow mb-3"
+                        onclick="location.href = '&#x2F;&#x2F;cp.cronbox.ru&#x2F;login';">Попробовать</button>
+                <div class="text-secondary text-small mb-3 mb-lg-1">
+                    Бесплатный тариф не ограничен по времени и <br>включает в себя два монитора.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- HOW IT WORKS -->
+
+<div class="p-3 p-lg-4 mb-5">
+    <div class="container p-0">
+        <h2 class="mb-4 mb-lg-5">Как это работает</h2>
+
+        <div class="row mb-lg-5">
+            <div class="col-12 col-lg-3">
+                <h4 id="main-page__monitoring-type-item__site"
+                    class="main-page__monitoring-type-item cursor-pointer color-primary">Мониторинг сайта</h4>
+            </div>
+            <div class="col-12 col-lg-4">
+                <h4 id="main-page__monitoring-type-item__job" class="cursor-pointer">Мониторинг серверных задач</h4>
+            </div>
+        </div>
+
+        <div id="main-page__monitoring-type__site-content">
+    <div class="row">
+        <div class="col-12 col-lg-5 pl-3 pr-5">
+            <hr>
+
+            <div class="p-2 mb-4">
+                <h5>1. Вы добавляете <span class="term"
+                                           title="Сущность, которая следит за работой вашего сайта">монитор</span></h5>
+                <div class="text-secondary">
+                    Указываете ссылку, как часто её проверять и название монитора.
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="p-2 mb-4">
+                <h5>2. Мы непрерывно наблюдаем</h5>
+                <div class="text-secondary">
+                    Сервис проверяет, доступна ли ссылка.
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="p-2 mb-4">
+                <h5>3. Рассылаем уведомления</h5>
+                <div class="text-secondary">
+                    Если ссылка недоступна, мы пришлём уведомление на почту и\или в Telegram.
+                </div>
+            </div>
+
+            <hr>
+        </div>
+
+        <div class="col-12 col-lg-7">
+            <img src="/images/cronbox-new-url-monitor.png"
+                 class="img-fluid p-3 rounded shadow-lg"
+                 alt="Создание монитора для сайта">
+        </div>
+
+    </div>
+</div>
+
+        <div id="main-page__monitoring-type__job-content" class="d-none">
+    <div class="row">
+        <div class="col-12 col-lg-5 pl-3 pr-5">
+            <hr>
+
+            <div class="p-2 mb-4">
+                <h5>1. Вы добавляете <span class="term"
+                                           title="Сущность, которая следит за работой вашей серверной задачи">монитор</span></h5>
+                <div class="text-secondary">
+                    Указываете название и расписание для монитора и сколько времени должна выполняться ваша задача.
+                    Настраиваете <a href="&#x2F;&#x2F;docs.cronbox.ru/how-to-ping/">интеграцию</a>.
+                    Всё это займёт 2-3 минуты.
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="p-2 mb-4">
+                <h5>2. Мы непрерывно наблюдаем</h5>
+                <div class="text-secondary">
+                    После того как ваша задача отправляет первый ping,
+                    мы начинаем следить за её выполнением.
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="p-2 mb-4">
+                <h5>3. Мы рассылаем уведомления</h5>
+                <div class="text-secondary">
+                    Если задача не выполнилась в ожидаемое время или выполнялась дольше обычного, мы пришлём уведомление.
+                </div>
+            </div>
+
+            <hr>
+
+        </div>
+
+        <div class="col-12 col-lg-7">
+            <img src="/images/cronbox-new-job-monitor.png"
+                 class="img-fluid p-3 rounded shadow-lg"
+                 alt="Создание монитора для задач">
+        </div>
+    </div>
+
+</div>
+
+
+    </div>
+</div>
+
+<!-- PLANS -->
+
+<div id="main-page__plans-section" class="plans__content pl-3 pt-4 pr-3 p-xl-5 text-white text-center">
+    <h2 class="mb-3">Выберите тариф, который лучше всего подходит вам</h2>
+<div class="mb-5 text-light">
+    Бесплатный тариф включает в себя два монитора.</br>
+    Отменить подписку на платный тариф можно в любое время.
+</div>
+
+<div class="row no-gutters justify-content-center mb-5 pb-3 pb-lg-0">
+    <div class="col-12 col-lg-4 main-page__plans__item border rounded p-2
+                    p-lg-4 text-center bg-white text-dark mr-lg-3 mb-3 mb-xl-0">
+        <h4 class="mt-2 mt-lg-0"><i class="fas fa-cat text-secondary"></i> Бесплатный</h4>
+
+        <hr class="mb-4">
+
+        <h3>0 ₽ / месяц</h3>
+
+        <div class="mb-1">
+            <div class="hint-link"
+                 title="Минимальный интервал проверки - 1 раз в час.">1 монитор сайтов</div>
+        </div>
+        <div>
+            1 монитор задач
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div>
+            E-mail- и Telegram-уведомления
+        </div>
+
+
+        <div>&nbsp;</div>
+
+        <div>
+            Еженедельные отчёты
+        </div>
+
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+
+        <hr>
+
+        <button class="button button-secondary plans-content__button mb-2 mb-lg-0" title="Выбрать"
+                onclick="location.href = '&#x2F;&#x2F;cp.cronbox.ru&#x2F;login';">Попробовать</button>
+    </div>
+
+    <div class="col-12 col-lg-4 main-page__plans__item rounded border mr-lg-3
+                    border-gray p-2 p-lg-4 shadow-lg bg-white text-dark mb-xl-0 mb-3">
+        <h4 class="mt-2 mt-lg-0"><i class="fas fa-user-astronaut color-primary"></i> Про</h4>
+
+        <hr class="mb-4">
+
+        <h3>299 ₽ / месяц</h3>
+
+        <div class="transparent-dashed-underline">
+            7 мониторов сайтов
+        </div>
+        <div>
+            15 мониторов задач
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div>
+            E-mail- и Telegram-уведомления
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div>
+            Еженедельные отчёты
+        </div>
+
+        <div>
+            Приоритетная поддержка по E-mail
+        </div>
+
+        <div>
+            &nbsp;
+        </div>
+
+        <hr>
+
+        <button class="button button-primary plans-content__button mb-2 mb-lg-0" title="Выбрать"
+                onclick="location.href = '&#x2F;&#x2F;cp.cronbox.ru&#x2F;login';">Попробовать</button>
+    </div>
+
+    <div class="col-12 col-lg-4 main-page__plans__item rounded border
+                    border-gray p-2 p-lg-4 bg-white text-dark">
+        <h4 class="mt-2 mt-lg-0">
+            <i class="fas fa-suitcase"></i> Бизнес
+        </h4>
+
+        <hr class="mb-4">
+
+        <h3>1499 ₽ / месяц</h3>
+
+        <div class="transparent-dashed-underline">
+            20 мониторов сайтов
+        </div>
+        <div>
+            40 мониторов задач
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div>
+            E-mail- и Telegram-уведомления
+        </div>
+
+        <div>&nbsp;</div>
+
+        <div>
+            Еженедельные отчёты
+        </div>
+
+        <div>
+            Приоритетная поддержка по E-mail
+        </div>
+
+        <div>
+            &nbsp;
+        </div>
+
+        <hr>
+
+        <button class="button button-primary plans-content__button mb-2 mb-lg-0" title="Выбрать"
+                onclick="location.href = '&#x2F;&#x2F;cp.cronbox.ru&#x2F;login';">Попробовать</button>
+    </div>
+</div>
+
+</div>
+
+<!-- FAQ -->
+
+<div id="faq-page__questions" class="container p-3 p-lg-5 text-center">
+    <div id="faq-page__header" class="font-weight-bold mb-1">FAQ</div>
+    <div class="text-secondary mb-5">Часто задаваемые вопросы и ответы на них</div>
+
+    <div class="row no-gutters justify-content-between mb-xl-5">
+        <div class="col-12 col-xl-4 text-left faq-page__question-block mb-4 mb-xl-0 pr-xl-3 pb-xl-4">
+            <h5>Что такое Cronbox?</h5>
+            <div class="text-secondary">
+                Cronbox — это сервис для мониторинга сайтов, ссылок и задач, которые выполняются на вашем сервере по расписанию.
+            </div>
+        </div>
+        <div class="col-12 col-xl-4 text-left faq-page__question-block mb-4 mb-xl-0 pr-xl-3 pb-xl-4">
+            <h5>Как работает мониторинг сайтов?</h5>
+            <div class="text-secondary">
+                Для каждого сайта или ссылки вы создаёте монитор, в котором указываете, с каким интервалом осуществлять проверки.
+                Если сайт или ссылка не откроются вовремя или код ответа от сервера будет отличаться от ожидаемого,
+                сервис уведомит вас об этом.
+            </div>
+        </div>
+        <div class="col-12 col-xl-4 text-left faq-page__question-block mb-4 mb-xl-0 pr-xl-3 pb-xl-4">
+            <h5>Как работает мониторинг задач?</h5>
+            <div class="text-secondary">
+                Для каждой серверной задачи вы создаёте монитор и получаете уникальную ссылку,
+                которую используете для выполнения HTTP-запросов от задачи.
+                Когда задача делает запрос, Cronbox знает, к какому монитору он относится.
+                Если запрос не поступил в ожидаемый интервал времени, сервис уведомит вас об этом.
+                Также сервис напишет, если задача выполнялась дольше обычного.
+                Подробнее о работе сервиса можно прочитать в <a href="https://docs.cronbox.ru/getting-started/">документации</a>.
+            </div>
+        </div>
+
+        <div class="col-12 col-xl-4 text-left faq-page__question-block mb-4 mb-xl-0 pr-xl-3 pb-xl-4">
+            <h5>Насколько сервис надёжный?</h5>
+            <div class="text-secondary">
+                Мы арендуем серверные мощности у немецкого провайдера <a
+                    href="https://www.hetzner.com/unternehmen/ueber-uns" target="_blank">Hetzner</a>.
+                Каждый час создаётся резервная копия базы данных и
+                копируется в S3-хранилище <a href="https://selectel.ru/about/data-centers/" target="_blank">Selectel</a>
+                (дата-центры уровня TIER III).
+            </div>
+        </div>
+        <div class="col-12 col-xl-4 text-left faq-page__question-block mb-4 mb-xl-0 pr-xl-3 pb-xl-4">
+            <h5>Есть ли у вас бесплатный тариф?</h5>
+            <div class="text-secondary">
+                Есть, он включает в себя
+                один монитор для сайтов и ссылок, а также один монитор для серверных задач.
+                Доступны каналы уведомлений на выбор: по почте и/или через Telegram.
+                Тариф не ограничен по времени.
+            </div>
+        </div>
+        <div class="col-12 col-xl-4 text-left faq-page__question-block mb-4 mb-xl-0 pr-xl-3 pb-xl-4">
+            <h5>Для чего в принципе нужен мониторинг?</h5>
+            <div class="text-secondary">
+                Мы написали про это <a href="&#x2F;&#x2F;blog.cronbox.ru/zachem-nuzhen-monitoring/"
+                                       target="_blank">отдельную статью</a>.
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center text-secondary p-3 p-xl-0 mb-5">
+        Если у вас остались вопросы,
+        пожалуйста, напишите на почту <a href="mailto:ask@cronbox.ru">ask@cronbox.ru</a>.
+    </div>
+
+</div>
+
+<hr>
+
+<div id="main-page__free-plan-row" class="p-2 p-lg-4 text-center">
+    <h1 class="text-dark">Начать мониторинг</h1>
+    <div class="text-secondary mb-4">У нас есть полностью бесплатный тариф: в комплекте два монитора и <br>
+        уведомления по почте и/или в Telegram.</div>
+    <button class="button button-primary btn-lg shadow"
+            onclick="location.href = '&#x2F;&#x2F;cp.cronbox.ru&#x2F;login';">Попробовать</button>
+
+    <button class="button button-secondary-outline btn-lg"
+            onclick="location.href = '&#x2F;&#x2F;docs.cronbox.ru';">Документация</button>
+</div>
+
+<script>
+    let primaryColorClass = 'color-primary';
+    let monitoringTypeItemClass = 'main-page__monitoring-type-item';
+    let hideElementClass = 'd-none';
+
+    let siteMonitorTypeItem = document.getElementById('main-page__monitoring-type-item__site');
+    let siteMonitorTypeContent = document.getElementById('main-page__monitoring-type__site-content');
+    let jobMonitorTypeItem = document.getElementById('main-page__monitoring-type-item__job');
+    let jobMonitorTypeContent = document.getElementById('main-page__monitoring-type__job-content');
+
+    siteMonitorTypeItem.onclick = () => {
+        siteMonitorTypeItem.classList.add(monitoringTypeItemClass);
+        siteMonitorTypeItem.classList.add(primaryColorClass);
+        jobMonitorTypeItem.classList.remove(monitoringTypeItemClass);
+        jobMonitorTypeItem.classList.remove(primaryColorClass);
+
+        siteMonitorTypeContent.classList.remove(hideElementClass);
+        jobMonitorTypeContent.classList.add(hideElementClass);
+    }
+
+    jobMonitorTypeItem.onclick = () => {
+        siteMonitorTypeItem.classList.remove(monitoringTypeItemClass);
+        siteMonitorTypeItem.classList.remove(primaryColorClass);
+        jobMonitorTypeItem.classList.add(monitoringTypeItemClass);
+        jobMonitorTypeItem.classList.add(primaryColorClass);
+
+        siteMonitorTypeContent.classList.add(hideElementClass);
+        jobMonitorTypeContent.classList.remove(hideElementClass);
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+  <footer id="page-footer" class="bg-light pl-4 pt-3 pr-4 pb-4 pt-lg-4 pt-lg-4 pl-lg-5 pb-lg-5 mt-lg-5 mt-xl-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-10">
+        <div class="row no-gutters justify-content-center">
+          <div class="col-6 col-xl-3 page-footer__menu-section">
+            <div class="page-footer__menu-header mb-2">CRONBOX</div>
+
+            <div class="page-footer__menu-item mb-1">
+              <a class="text-secondary" target="_blank" href="&#x2F;&#x2F;docs.cronbox.ru">Документация</a>
+            </div>
+            <div class="page-footer__menu-item mb-1">
+              <a class="text-secondary" href="/plans">Тарифы и оплата</a>
+            </div>
+
+            <div class="page-footer__menu-item mb-1">
+              <a class="text-secondary" href="/faq">FAQ</a>
+            </div>
+
+            <div class="page-footer__menu-item mb-1">
+              <a class="text-secondary" href="/security">Безопасность</a>
+            </div>
+            <div class="page-footer__menu-item">
+              <a class="text-secondary" href="/privacy">Персональные данные</a>
+            </div>
+          </div>
+          <div class="col-6 col-xl-3 page-footer__menu-section">
+            <div class="page-footer__menu-header mb-2">О проекте</div>
+            <div class="page-footer__menu-item mb-1">
+              <a class="text-secondary" target="_blank" href="&#x2F;&#x2F;blog.cronbox.ru">Блог</a>
+            </div>
+            <div class="page-footer__menu-item mb-1">
+              <a class="text-secondary" href="/team">Команда</a>
+            </div>
+            <div class="page-footer__menu-item">
+              <a class="text-secondary" href="/feedback">Обратная связь</a>
+            </div>
+          </div>
+          <div class="col-3 page-footer__menu-section"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page_footer__years-row text-tiny text-center mt-5">
+      <a href="https://tinyops.ru" class="page_footer__years-row" target="_blank">TINYOPS</a> &copy; 2020-2021
+    </div>
+  </footer>
+
+</div>
+
+
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRZSCX2"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+</body>
+</html>
